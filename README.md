@@ -107,7 +107,8 @@ Evaluation logic in eval/score.py.
 
 
 
-📦 Deliverables
+## 📦 Deliverables
+
 notebooks\prompt_version_evaluation.ipynb - All versions + evaluation
 
 HealthCopilot\slides\Health_Copilot_A_Strategic_Evolution.pdf -slide presentation
