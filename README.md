@@ -43,7 +43,7 @@
 git clone https://github.com/Agaramsaikrishna/Health-Copilot.git
 cd Health-Copilot
 pip install -r requirements.txt
-
+```
 💻 How to Use
 1. Run Prompt Evaluations
 bash
