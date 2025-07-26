@@ -41,7 +41,7 @@
 
 ```bash
 git clone https://github.com/Agaramsaikrishna/Health-Copilot.git
-cd preventive-health-copilot
+cd Health-Copilot
 pip install -r requirements.txt
 
 💻 How to Use
