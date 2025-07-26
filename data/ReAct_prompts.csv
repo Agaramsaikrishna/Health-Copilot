@@ -1,0 +1,5 @@
+version,prompt,expected_keywords,expected_tools
+V1 - Basic,"You are a preventive health assistant. Based on the following user profile, provide 3 preventive health recommendations...",smoking,diet,screening,exercise,
+V2 - Few-Shot,"User: I have high cholesterol and am overweight. Bot: You should avoid saturated fats...",oats,fiber,cholesterol,
+V3 - ReAct,"You are a preventive health copilot. Reason step-by-step and call get_diet_tip if needed...",cholesterol,oats,avocado,get_diet_tip
+V4 - Plan-Solve,"You are a preventive health AI copilot. Follow a Plan-Solve approach...",smoking,screening,exercise,diet,get_diet_tip,schedule_reminder

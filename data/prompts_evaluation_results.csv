@@ -1,0 +1,141 @@
+Version,Prompt,Response,Expected Keywords,Expected Tools,Accuracy,Coherence,Completeness,User-Friendliness,Reasoning Used,Score (0–5)
+V1 - Basic,"You are a preventive health assistant. Based on the following user profile, provide 3 preventive health recommendations...","## Preventive Health Recommendations
+Based on the user profile, here are three preventive health recommendations:
+
+* **Nutrition Guidance**: Eat a balanced diet with plenty of fruits, vegetables, and whole grains. Aim to include a variety of colors on your plate to ensure you're getting a range of nutrients.
+* **Fitness Planning**: Engage in regular physical activity, such as walking or jogging, for at least 30 minutes a day. You can also incorporate strength training, high-intensity interval training (HIIT), or other forms of exercise to keep things interesting and prevent plateaus.
+* **Health Screenings**: Schedule regular health screenings, such as annual check-ups and cancer screenings, as recommended by a healthcare professional. This will help identify any potential health issues early on, allowing for prompt treatment and prevention of complications.
+
+## Safety Considerations and Disclaimers
+Please note that these recommendations are general in nature and may not be suitable for everyone. It's essential to consult a healthcare professional before starting any new diet or exercise program, especially if you have any underlying health conditions or concerns.
+
+## Next Steps
+Take the first step towards a healthier you by incorporating these recommendations into your daily routine. Remember to listen to your body and make adjustments as needed. If you have any questions or concerns, don't hesitate to reach out to a healthcare professional for personalized guidance and support.",smoking,diet,No,Yes,No,Yes,No,3.0
+V2 - Few-Shot,User: I have high cholesterol and am overweight. Bot: You should avoid saturated fats...,"## Step 1: Assess User Health Profile
+The user has high cholesterol and is overweight, which increases their risk for heart disease and other health problems.
+
+## Step 2: Identify Key Health Areas to Address
+The key health areas to address are:
+* High cholesterol
+* Overweight status
+* Risk of heart disease
+
+## Step 3: Determine Priority Interventions
+The priority interventions are:
+* Nutrition guidance to help lower cholesterol levels and promote weight loss
+* Encouragement to increase physical activity and exercise regularly
+* Recommendation to consult with a healthcare professional for personalized guidance and treatment
+
+## Step 4: Select Appropriate Tools and Sequence
+The appropriate tools and sequence are:
+* Health risk assessment to evaluate the user's health profile and provide personalized recommendations
+* Nutrition guidance to provide general recommendations for healthy eating
+* Encouragement to consult with a healthcare professional for personalized guidance and treatment
+
+## Step 5: Provide Actionable Steps with Timelines
+The actionable steps with timelines are:
+* Schedule an appointment with a healthcare professional within the next 2 weeks to discuss personalized guidance and treatment
+* Start making healthy lifestyle changes, such as increasing physical activity and eating a balanced diet, within the next 1-2 weeks
+* Follow up with a healthcare professional in 3-6 months to monitor progress and adjust treatment plan as needed
+
+## Step 6: Include Safety Considerations and Disclaimers
+The safety considerations and disclaimers are:
+* Always consult with a healthcare professional before making any significant changes to diet or exercise routine
+* The information provided is for general purposes only and is not intended to diagnose or treat any medical condition
+
+The final answer is: 
+To manage your high cholesterol and overweight status, consider the following steps:
+
+*   **Schedule a doctor's appointment**: Consult with your healthcare provider to discuss your health goals and create a personalized plan.
+*   **Eat a heart-healthy diet**: Focus on consuming foods low in saturated fats, trans fats, and cholesterol. Increase your intake of:
+    *   Fruits
+    *   Vegetables
+    *   Whole grains
+    *   Lean proteins
+    *   Low-fat dairy products
+*   **Incorporate physical activity**: Aim for at least 150 minutes of moderate-intensity aerobic exercise, or 75 minutes of vigorous-intensity aerobic exercise, or a combination of both, per week.
+*   **Monitor your progress**: Regularly track your weight, blood pressure, and cholesterol levels to monitor your progress and make adjustments to your plan as needed.
+
+Safety Considerations and Disclaimers:
+
+*   Always consult with a healthcare professional before making any significant changes to your diet or exercise routine.
+*   The information provided is for general purposes only and is not intended to diagnose or treat any medical condition.
+
+Next Steps:
+
+*   Schedule a follow-up appointment with your healthcare provider to monitor your progress and adjust your plan as needed.
+*   Continue to prioritize your health and wellness by making sustainable lifestyle changes.",oats,fiber,No,Yes,No,Yes,Yes,2.0
+V3 - ReAct,You are a preventive health copilot. Reason step-by-step and call get_diet_tip if needed...,"**Health Risk Assessment Results**
+
+Based on the user's health profile, the assessment reveals:
+
+* **BMI Category**: Normal weight (22.9)
+* **Risk Level**: Low
+* **Risk Factors**: Metabolic syndrome, Early cardiovascular changes
+* **Health Recommendations**: None
+* **Screening Due**: Blood pressure check, Diabetes screening, Cholesterol screening
+* **Next Checkup Recommended**: 1 year
+* **Lifestyle Improvements**:
+	+ Maintain regular exercise routine
+	+ Follow balanced, nutritious diet
+	+ Ensure adequate sleep (7-9 hours)
+	+ Manage stress through healthy coping mechanisms
+	+ Avoid tobacco and limit alcohol
+* **Emergency Signs**:
+	+ Chest pain or pressure
+	+ Severe shortness of breath
+	+ Sudden severe headache
+	+ Signs of stroke (FAST protocol)
+	+ Severe abdominal pain
+
+**Disclaimer**: This assessment is for informational purposes only. Always consult healthcare professionals for medical advice.
+
+Next Steps:
+
+1. Schedule the recommended screenings (blood pressure check, diabetes screening, and cholesterol screening) within the next 6 months.
+2. Implement the suggested lifestyle improvements to maintain a healthy lifestyle.
+3. Monitor for emergency signs and seek medical attention immediately if any of these symptoms occur.
+
+Remember, preventive care is essential for maintaining overall health and well-being. By following these recommendations and staying proactive, you can reduce your risk of developing chronic diseases and ensure a healthier future.",cholesterol,oats,Yes,Yes,Yes,Yes,No,4.0
+V4 - Plan-Solve,You are a preventive health AI copilot. Follow a Plan-Solve approach...,"## Step 1: Assess User Health Profile
+To provide personalized recommendations, I will assess the user's health profile. The user's profile indicates they are a 30-year-old male with a height of 175 cm and a weight of 70 kg.
+
+## Step 2: Evaluate Health Risks
+Based on the user's profile, I will evaluate their health risks. The user's BMI is 22.9, which falls into the ""Normal weight"" category. Their risk level is ""Low,"" but they have risk factors for ""Metabolic syndrome"" and ""Early cardiovascular changes.""
+
+## Step 3: Recommend Screenings and Preventive Measures
+Considering the user's health profile and risk assessment, I recommend the following screenings and preventive measures:
+* Blood pressure check
+* Diabetes screening
+* Cholesterol screening
+* Maintain a regular exercise routine
+* Follow a balanced, nutritious diet
+* Ensure adequate sleep (7-9 hours)
+* Manage stress through healthy coping mechanisms
+* Avoid tobacco and limit alcohol
+
+## Step 4: Schedule Next Checkup
+The user's next checkup is recommended in 1 year.
+
+## Step 5: Provide Emergency Signs and Disclaimer
+It is essential to recognize emergency signs, such as:
+* Chest pain or pressure
+* Severe shortness of breath
+* Sudden severe headache
+* Signs of stroke (FAST protocol)
+* Severe abdominal pain
+This assessment is for informational purposes only. Always consult healthcare professionals for medical advice.
+
+The final answer is: 
+**Health Recommendations:**
+* Maintain a regular exercise routine
+* Follow a balanced, nutritious diet
+* Ensure adequate sleep (7-9 hours)
+* Manage stress through healthy coping mechanisms
+* Avoid tobacco and limit alcohol
+**Screenings Due:**
+* Blood pressure check
+* Diabetes screening
+* Cholesterol screening
+**Next Checkup Recommended:** 1 year
+Please consult a healthcare professional for personalized medical advice.",smoking,screening,No,Yes,No,Yes,Yes,3.0

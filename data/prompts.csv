@@ -1,0 +1,13 @@
+Prompt,Expected Tools,Expected Output Keywords
+"What should I eat for lunch to lose weight?","Nutritionix,get_diet_tip","fiber,vegetables,protein"
+"Remind me to drink water at 10am","mock_schedule_reminder","Reminder set"
+"Give me a healthy snack idea.","get_diet_tip","snack,healthy,nuts"
+"What are some high protein vegetarian meals?","Nutritionix","protein,vegetarian"
+"Suggest a healthy breakfast","get_diet_tip,Nutritionix","fiber,breakfast,protein"
+"Track calories for 2 bananas and a boiled egg","Nutritionix","banana,egg,calories"
+"Remind me to walk every day at 7pm","mock_schedule_reminder","Reminder set,walk,evening"
+"What are low sugar fruits?","OpenFoodFacts","low sugar,fruits"
+"Healthy dinner for weight loss","get_diet_tip,Nutritionix","dinner,low calorie,protein"
+"Set a hydration reminder at 4pm","mock_schedule_reminder","reminder,water"
+"Suggest 3 healthy snacks","get_diet_tip","snack,healthy,nuts"
+
